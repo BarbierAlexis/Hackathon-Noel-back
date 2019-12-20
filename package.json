@@ -23,6 +23,7 @@
     "express": "^4.17.1",
     "express-vue": "^5.14.1",
     "nodemailer": "^6.4.2",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "twit": "^2.2.11"
   }
 }
