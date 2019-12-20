@@ -10,9 +10,6 @@ const T = new Twit ({
   access_token_secret: 'E9puHsBjB579pM82Hpwqq8G3kY9a4nEj7gqh1oVouXR1m'
 })
 
-
-console.log('toto')
-
 router.post('/', (req, res) => {
   T.post('/statuses/update', { status: `${ JSON.stringify(req.body) }` }, (err, data, response) => {
     if (err) {
@@ -24,7 +21,5 @@ router.post('/', (req, res) => {
     }
   });
 });
-
-
  
 module.exports = router;
