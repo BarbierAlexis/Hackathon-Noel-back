@@ -3,7 +3,7 @@ const axios = require('axios');
 
 const router = express.Router();
 
-router.get('/weater', (req,res) => {
+router.get('/', (req,res) => {
   axios.get('https://weather.ls.hereapi.com/weather/1.0/report.json?product=alerts&name=Nantes&apiKey=zUMpToszZ1uT0zwmj78f4pEe66GcDGEvpLoNigwfqYU')
     .then((response) => {
       if(err) {

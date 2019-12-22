@@ -10,7 +10,6 @@ const T = new Twit ({
   access_token_secret: 'E9puHsBjB579pM82Hpwqq8G3kY9a4nEj7gqh1oVouXR1m'
 })
 
-
 console.log('toto')
 
 router.post('/', (req, res) => {
